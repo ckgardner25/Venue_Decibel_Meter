@@ -13,3 +13,4 @@ IoT edge device designed to monitor and report ambient sound levels in real time
 ### Version 1.0
 - Identified an ADC routing error during hardware bring-up and implemented a jumper-wire rework to restore analog signal acquisition.
 - Successfully validated full system functionality following hardware modification, including sensor acquisition and IoT communication.
+<img width="500" height="550" alt="Board" src="Images/Top_View.png" />
