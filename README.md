@@ -1,4 +1,6 @@
 # Venue_Decibel_Meter
+
+## Overview
 IoT edge device designed to monitor and report ambient sound levels in real time. The project integrates analog signal acquisition, embedded firmware, and wireless communication to provide continuous environmental noise monitoring.
 
 ## Key Features
