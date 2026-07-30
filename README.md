@@ -21,7 +21,7 @@ Designed and fabricated an Arduino Uno IoT shield featuring an analog microphone
 **Indicator:** On-board LED for programmable sound threshold warning
 
 ## Block Diagram
-<img width="520" height="450" alt="block diagram" src="Block_Diagram/Block_Diagram.png" />
+<img width="520" height="450" alt="block diagram" src="Block_Diagram/Block_Diagram1.png" />
 
 ## Control Strategy
 The microphone captures ambient audio and the OPA344 amplifies the AC signal. The Arduino continuously samples the amplified waveform through its ADC over a fixed time window. Peak-to-peak voltage is converted to RMS voltage and then estimated in decibels using firmware. The calculated dB value is transmitted via the ESP8266 to Adafruit IO for real-time visualization, while a warning LED indicates when the sound level exceeds a preset threshold.
