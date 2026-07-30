@@ -4,21 +4,48 @@
 Designed and fabricated an Arduino Uno IoT shield featuring an analog microphone front end, OPA344 signal conditioning, and ESP8266 wireless connectivity. Developed embedded firmware to acquire ADC data, estimate sound pressure levels, and stream real-time measurements to the Adafruit IO dashboard.
 
 ## Specifications
-**Microcontroller:** Arduino Uno
-
-**Wireless Module:** ESP8266-01S Wi-Fi
-
-**Analog Front End:** OPA344 rail-to-rail operational amplifier
-
-**Sensor:** CMA-4544PF-W electret condenser microphone
-
-**PCB:** Custom two-layer KiCad Arduino Uno shield with ground plane
-
-**Signal Processing:** 10-bit ADC sampling, peak-to-peak voltage calculation, RMS conversion, and dB estimation
-
-**Cloud Platform:** Adafruit IO for real-time data visualization
-
-**Indicator:** On-board LED for programmable sound threshold warning
+<table>
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Specification</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Microcontroller</strong></td>
+      <td>Arduino Uno</td>
+    </tr>
+    <tr>
+      <td><strong>Wireless Module</strong></td>
+      <td>ESP8266-01S Wi-Fi</td>
+    </tr>
+    <tr>
+      <td><strong>Analog Front End</strong></td>
+      <td>OPA344 rail-to-rail operational amplifier</td>
+    </tr>
+    <tr>
+      <td><strong>Sensor</strong></td>
+      <td>CMA-4544PF-W electret condenser microphone</td>
+    </tr>
+    <tr>
+      <td><strong>PCB</strong></td>
+      <td>Custom two-layer KiCad Arduino Uno shield with ground plane</td>
+    </tr>
+    <tr>
+      <td><strong>Signal Processing</strong></td>
+      <td>10-bit ADC sampling, peak-to-peak voltage calculation, RMS conversion, and dB estimation</td>
+    </tr>
+    <tr>
+      <td><strong>Cloud Platform</strong></td>
+      <td>Adafruit IO for real-time data visualization</td>
+    </tr>
+    <tr>
+      <td><strong>Indicator</strong></td>
+      <td>On-board LED for programmable sound threshold warning</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Block Diagram
 <img width="520" height="450" alt="block diagram" src="Block_Diagram/Block_Diagram1.png" />
